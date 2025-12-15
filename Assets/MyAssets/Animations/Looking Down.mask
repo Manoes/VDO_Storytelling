@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Looking Down
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Mesh
+    m_Weight: 1
+  - m_Path: Tripod
+    m_Weight: 1
+  - m_Path: Tripod/Root
+    m_Weight: 1
+  - m_Path: Tripod/Root/Back_Foot
+    m_Weight: 1
+  - m_Path: Tripod/Root/Back_Foot/Back_Foot_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Back_Leg_1
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Back_Leg_1/Back_Leg_2
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Back_Leg_1/Back_Leg_2/Back_Leg_3
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Back_Leg_1/Back_Leg_2/Back_Leg_3/Back_Leg_4
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Back_Leg_1/Back_Leg_2/Back_Leg_3/Back_Leg_4/Back_Leg_5
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Back_Leg_1/Back_Leg_2/Back_Leg_3/Back_Leg_4/Back_Leg_5/Back_Leg_6
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Back_Leg_1/Back_Leg_2/Back_Leg_3/Back_Leg_4/Back_Leg_5/Back_Leg_6/Back_Leg_7
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Back_Leg_1/Back_Leg_2/Back_Leg_3/Back_Leg_4/Back_Leg_5/Back_Leg_6/Back_Leg_7/Back_Leg_8
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Back_Leg_1/Back_Leg_2/Back_Leg_3/Back_Leg_4/Back_Leg_5/Back_Leg_6/Back_Leg_7/Back_Leg_8/Back_Leg_9
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Back_Leg_1/Back_Leg_2/Back_Leg_3/Back_Leg_4/Back_Leg_5/Back_Leg_6/Back_Leg_7/Back_Leg_8/Back_Leg_9/Back_Leg_10
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Back_Leg_1/Back_Leg_2/Back_Leg_3/Back_Leg_4/Back_Leg_5/Back_Leg_6/Back_Leg_7/Back_Leg_8/Back_Leg_9/Back_Leg_10/Back_Leg_11
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Back_Leg_1/Back_Leg_2/Back_Leg_3/Back_Leg_4/Back_Leg_5/Back_Leg_6/Back_Leg_7/Back_Leg_8/Back_Leg_9/Back_Leg_10/Back_Leg_11/Back_Leg_11_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Head
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Head/Left_Laser_1
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Head/Left_Laser_1/Left_Laser_2
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Head/Left_Laser_1/Left_Laser_2/Left_Laser_3
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Head/Left_Laser_1/Left_Laser_2/Left_Laser_3/Left_Laser_4
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Head/Left_Laser_1/Left_Laser_2/Left_Laser_3/Left_Laser_4/Left_Laser_5
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Head/Left_Laser_1/Left_Laser_2/Left_Laser_3/Left_Laser_4/Left_Laser_5/Left_Laser_5_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Head/Right_Laser_1
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Head/Right_Laser_1/Right_Laser_2
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Head/Right_Laser_1/Right_Laser_2/Right_Laser_3
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Head/Right_Laser_1/Right_Laser_2/Right_Laser_3/Right_Laser_4
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Head/Right_Laser_1/Right_Laser_2/Right_Laser_3/Right_Laser_4/Right_Laser_5
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Head/Right_Laser_1/Right_Laser_2/Right_Laser_3/Right_Laser_4/Right_Laser_5/Right_Laser_5_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Grasper_1
+    m_Weight: 0
+  - m_Path: Tripod/Root/Body/Left_Grasper_1/Left_Grasper_1_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Grasper_2
+    m_Weight: 0
+  - m_Path: Tripod/Root/Body/Left_Grasper_2/Left_Grasper_2_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Grasper_3
+    m_Weight: 0
+  - m_Path: Tripod/Root/Body/Left_Grasper_3/Left_Grasper_3_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Leg_1
+    m_Weight: 0
+  - m_Path: Tripod/Root/Body/Left_Leg_1/Left_Leg_2
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Leg_1/Left_Leg_2/Left_Leg_3
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Leg_1/Left_Leg_2/Left_Leg_3/Left_Leg_4
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Leg_1/Left_Leg_2/Left_Leg_3/Left_Leg_4/Left_Leg_5
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Leg_1/Left_Leg_2/Left_Leg_3/Left_Leg_4/Left_Leg_5/Left_Leg_6
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Leg_1/Left_Leg_2/Left_Leg_3/Left_Leg_4/Left_Leg_5/Left_Leg_6/Left_Leg_7
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Leg_1/Left_Leg_2/Left_Leg_3/Left_Leg_4/Left_Leg_5/Left_Leg_6/Left_Leg_7/Left_Leg_8
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Leg_1/Left_Leg_2/Left_Leg_3/Left_Leg_4/Left_Leg_5/Left_Leg_6/Left_Leg_7/Left_Leg_8/Left_Leg_9
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Leg_1/Left_Leg_2/Left_Leg_3/Left_Leg_4/Left_Leg_5/Left_Leg_6/Left_Leg_7/Left_Leg_8/Left_Leg_9/Left_Leg_10
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Leg_1/Left_Leg_2/Left_Leg_3/Left_Leg_4/Left_Leg_5/Left_Leg_6/Left_Leg_7/Left_Leg_8/Left_Leg_9/Left_Leg_10/Left_Leg_11
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Leg_1/Left_Leg_2/Left_Leg_3/Left_Leg_4/Left_Leg_5/Left_Leg_6/Left_Leg_7/Left_Leg_8/Left_Leg_9/Left_Leg_10/Left_Leg_11/Left_Leg_11_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Lower_Tentacle_1
+    m_Weight: 0
+  - m_Path: Tripod/Root/Body/Left_Lower_Tentacle_1/Left_Lower_Tentacle_2
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Lower_Tentacle_1/Left_Lower_Tentacle_2/Left_Lower_Tentacle_3
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Lower_Tentacle_1/Left_Lower_Tentacle_2/Left_Lower_Tentacle_3/Left_Lower_Tentacle_4
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Lower_Tentacle_1/Left_Lower_Tentacle_2/Left_Lower_Tentacle_3/Left_Lower_Tentacle_4/Left_Lower_Tentacle_4_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Upper_Tentacle_1
+    m_Weight: 0
+  - m_Path: Tripod/Root/Body/Left_Upper_Tentacle_1/Left_Upper_Tentacle_2
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Upper_Tentacle_1/Left_Upper_Tentacle_2/Left_Upper_Tentacle_3
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Upper_Tentacle_1/Left_Upper_Tentacle_2/Left_Upper_Tentacle_3/Left_Upper_Tentacle_4
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Left_Upper_Tentacle_1/Left_Upper_Tentacle_2/Left_Upper_Tentacle_3/Left_Upper_Tentacle_4/Left_Upper_Tentacle_4_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Middle_Lower_Tentacle_1
+    m_Weight: 0
+  - m_Path: Tripod/Root/Body/Middle_Lower_Tentacle_1/Middle_Lower_Tentacle_2
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Middle_Lower_Tentacle_1/Middle_Lower_Tentacle_2/Middle_Lower_Tentacle_3
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Middle_Lower_Tentacle_1/Middle_Lower_Tentacle_2/Middle_Lower_Tentacle_3/Middle_Lower_Tentacle_4
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Middle_Lower_Tentacle_1/Middle_Lower_Tentacle_2/Middle_Lower_Tentacle_3/Middle_Lower_Tentacle_4/Middle_Lower_Tentacle_4_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Middle_Upper_Tentacle_1
+    m_Weight: 0
+  - m_Path: Tripod/Root/Body/Middle_Upper_Tentacle_1/Middle_Upper_Tentacle_2
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Middle_Upper_Tentacle_1/Middle_Upper_Tentacle_2/Middle_Upper_Tentacle_3
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Middle_Upper_Tentacle_1/Middle_Upper_Tentacle_2/Middle_Upper_Tentacle_3/Middle_Upper_Tentacle_4
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Middle_Upper_Tentacle_1/Middle_Upper_Tentacle_2/Middle_Upper_Tentacle_3/Middle_Upper_Tentacle_4/Middle_Upper_Tentacle_4_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Grasper_1
+    m_Weight: 0
+  - m_Path: Tripod/Root/Body/Right_Grasper_1/Right_Grasper_1_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Grasper_2
+    m_Weight: 0
+  - m_Path: Tripod/Root/Body/Right_Grasper_2/Right_Grasper_2_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Grasper_3
+    m_Weight: 0
+  - m_Path: Tripod/Root/Body/Right_Grasper_3/Right_Grasper_3_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Leg_1
+    m_Weight: 0
+  - m_Path: Tripod/Root/Body/Right_Leg_1/Right_Leg_2
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Leg_1/Right_Leg_2/Right_Leg_3
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Leg_1/Right_Leg_2/Right_Leg_3/Right_Leg_4
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Leg_1/Right_Leg_2/Right_Leg_3/Right_Leg_4/Right_Leg_5
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Leg_1/Right_Leg_2/Right_Leg_3/Right_Leg_4/Right_Leg_5/Right_Leg_6
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Leg_1/Right_Leg_2/Right_Leg_3/Right_Leg_4/Right_Leg_5/Right_Leg_6/Right_Leg_7
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Leg_1/Right_Leg_2/Right_Leg_3/Right_Leg_4/Right_Leg_5/Right_Leg_6/Right_Leg_7/Right_Leg_8
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Leg_1/Right_Leg_2/Right_Leg_3/Right_Leg_4/Right_Leg_5/Right_Leg_6/Right_Leg_7/Right_Leg_8/Right_Leg_9
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Leg_1/Right_Leg_2/Right_Leg_3/Right_Leg_4/Right_Leg_5/Right_Leg_6/Right_Leg_7/Right_Leg_8/Right_Leg_9/Right_Leg_10
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Leg_1/Right_Leg_2/Right_Leg_3/Right_Leg_4/Right_Leg_5/Right_Leg_6/Right_Leg_7/Right_Leg_8/Right_Leg_9/Right_Leg_10/Right_Leg_11
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Leg_1/Right_Leg_2/Right_Leg_3/Right_Leg_4/Right_Leg_5/Right_Leg_6/Right_Leg_7/Right_Leg_8/Right_Leg_9/Right_Leg_10/Right_Leg_11/Right_Leg_11_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Lower_Tentacle_1
+    m_Weight: 0
+  - m_Path: Tripod/Root/Body/Right_Lower_Tentacle_1/Right_Lower_Tentacle_2
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Lower_Tentacle_1/Right_Lower_Tentacle_2/Right_Lower_Tentacle_3
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Lower_Tentacle_1/Right_Lower_Tentacle_2/Right_Lower_Tentacle_3/Right_Lower_Tentacle_4
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Lower_Tentacle_1/Right_Lower_Tentacle_2/Right_Lower_Tentacle_3/Right_Lower_Tentacle_4/Right_Lower_Tentacle_4_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Upper_Tentacle_1
+    m_Weight: 0
+  - m_Path: Tripod/Root/Body/Right_Upper_Tentacle_1/Right_Upper_Tentacle_2
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Upper_Tentacle_1/Right_Upper_Tentacle_2/Right_Upper_Tentacle_3
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Upper_Tentacle_1/Right_Upper_Tentacle_2/Right_Upper_Tentacle_3/Right_Upper_Tentacle_4
+    m_Weight: 1
+  - m_Path: Tripod/Root/Body/Right_Upper_Tentacle_1/Right_Upper_Tentacle_2/Right_Upper_Tentacle_3/Right_Upper_Tentacle_4/Right_Upper_Tentacle_4_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Left_Foot
+    m_Weight: 0
+  - m_Path: Tripod/Root/Left_Foot/Left_Foot_end
+    m_Weight: 1
+  - m_Path: Tripod/Root/Right_Foot
+    m_Weight: 0
+  - m_Path: Tripod/Root/Right_Foot/Right_Foot_end
+    m_Weight: 1

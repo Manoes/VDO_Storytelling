@@ -783,7 +783,7 @@ LineRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735343760248808683}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -2014,7 +2014,7 @@ LineRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4497717980066971157}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -2384,8 +2384,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 4389362539935248412}
-  minDelay: 2
-  maxDelay: 6
+  minDelay: 4
+  maxDelay: 10
 --- !u!114 &8423751642032352616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2401,8 +2401,7 @@ MonoBehaviour:
   animator: {fileID: 4389362539935248412}
   walkClip: {fileID: 4749916858553617154, guid: 1ba83919b329db94f886015d1467fe58, type: 3}
   metersPerCycle: 42
-  speedMultiplier: 0.3
-  useLocalForward: 1
+  moveMultiplier: 1
 --- !u!1 &5237235874243748152
 GameObject:
   m_ObjectHideFlags: 0

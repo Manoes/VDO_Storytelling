@@ -3,7 +3,57 @@ guid: 8bee40c8c8e8ed54cb7ebb3602f80727
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #0
+    second: {fileID: 2100000, guid: 974aa21bef50ce946b4b53b2a692a312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #39
+    second: {fileID: 2100000, guid: 7875c2952b128ee4a8b63a37c11297d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rural_Brownstone_Facade_Flr_6
+    second: {fileID: 2100000, guid: 7a91a448ed486f3498943a5dc7cc8edf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rural_Facade_FLR_2
+    second: {fileID: 2100000, guid: 4808f7fe658bfcd468d83df346622897, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rural_Housetrim_1
+    second: {fileID: 2100000, guid: e53a175b5d7d2ea4c85370c7945fba63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rural_Industrial_Walls_FLR_1
+    second: {fileID: 2100000, guid: e44701ad28429ba4d89cbea0ca78beab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rural_Midcity_Facade_FLR_2
+    second: {fileID: 2100000, guid: 48bd7546c6ed24e4e8d605ed5066586b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rural_Midcity_Walls_FLR_1
+    second: {fileID: 2100000, guid: 25175873e113c6543ae447706335e042, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rural_Trailer_Stuff_1
+    second: {fileID: 2100000, guid: 2e984e3055587f240a3691efff89a3b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rural_Walltrim_1
+    second: {fileID: 2100000, guid: c1a4f54c35722dc418aae48dda4cadfc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

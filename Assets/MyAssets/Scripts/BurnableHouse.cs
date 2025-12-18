@@ -23,7 +23,7 @@ public class BurnableHouse : MonoBehaviour
 
         var point = impactPoint ? impactPoint.position : transform.position;
 
-        if(explosionVFXPrefab) Instantiate(explosionVFXPrefab, point, quaternion.identity);
+        if (explosionVFXPrefab) explosionVFXPrefab.SetActive(true);
         if(debrisVFXPrefab) Instantiate(debrisVFXPrefab, point, Quaternion.identity);
         if(firePrefabToEnable) firePrefabToEnable.SetActive(true);
 

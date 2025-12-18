@@ -2,31 +2,22 @@ using UnityEngine;
 
 public class TripodShotEventReceiver : MonoBehaviour
 {
+    [Header("References")]
+    public TripodLocomotionInPlace walkScript;
+
     [Header("Set by Trigger")]
     public BurnableHouse currentTarget;
 
-    [Header("Impact VFX/Audio")]
-    [SerializeField] private GameObject impactVFXPrefab;
-    [SerializeField] private AudioSource source;
-    [SerializeField] private AudioClip impactClip;
 
     public void AE_HeatRayImpact()
     {
-        if(currentTarget == null) return;
+        if (currentTarget == null) return;
 
+        // Blow up House
         currentTarget.Ignite();
 
-        if (impactVFXPrefab)
-        {
-            var point = currentTarget.impactPoint ? currentTarget.impactPoint.position : currentTarget.transform.position;
-            Instantiate(impactVFXPrefab, point, Quaternion.identity);
-        }
-
-        if(source && impactClip)
-        {
-            source.PlayOneShot(impactClip);
-        }
-
-        currentTarget = null;
+        // Walk Again after blowing up House
+        walkScript.canWalk = true;
+        walkScript.WalkAgain();        
     }
 }

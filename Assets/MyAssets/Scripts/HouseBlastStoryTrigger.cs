@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class HouseBlastTrigger : MonoBehaviour
 {
+    [Header("Script References")]
     [SerializeField] private TripodShotEventReceiver tripodReceiver;
+    [SerializeField] private TripodLocomotionInPlace tripodWalking;
 
     [Header("Tripod Control")]
     [SerializeField] private Animator tripodAnimator;
@@ -12,17 +14,15 @@ public class HouseBlastTrigger : MonoBehaviour
 
     private bool fired;
 
-    private void OTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if(fired) return;
-        if(!other.CompareTag("Tripod")) return;
+        print("Tripod has triggered the Trigger!");
 
-        fired = true;
-
-        if(randomShootScriptToDisable) randomShootScriptToDisable.enabled = false;
-
-        tripodReceiver.currentTarget = targetHouse;
-
+        // Stand in Place, get Ready to Shoot
+        if (tripodWalking) tripodWalking.canWalk = false;
         tripodAnimator.SetTrigger(shootHouseTrigger);
+
+        // Disable Randomshoot Script
+        if(randomShootScriptToDisable) randomShootScriptToDisable.enabled = false;
     }
 }

@@ -3,7 +3,8 @@ using UnityEngine;
 public class TripodLocomotionInPlace : MonoBehaviour
 {
     [Header("References")]
-    [SerializeField] private Animator animator;
+    [SerializeField] private Animator animator;    
+    [SerializeField] private string walkAgainTrigger = "WalkAgain";
     [SerializeField] private AnimationClip walkClip;
 
     [Tooltip("Meters traveled per FULL walk loop (at normal walk speed).")]
@@ -13,6 +14,7 @@ public class TripodLocomotionInPlace : MonoBehaviour
     [SerializeField] private float moveMultiplier = 1f;
 
     private float cycleDuration = 1f;
+    public bool canWalk = true;
 
     void Awake()
     {
@@ -20,9 +22,14 @@ public class TripodLocomotionInPlace : MonoBehaviour
         if (walkClip) cycleDuration = Mathf.Max(0.0001f, walkClip.length);
     }
 
+    public void WalkAgain()
+    {
+        animator.SetTrigger(walkAgainTrigger);
+    }
+
     void Update()
     {
-        if (!walkClip) return;
+        if (!walkClip || !canWalk) return;
 
         float moveSpeed = (metersPerCycle / cycleDuration) * moveMultiplier;
         transform.position += transform.forward * moveSpeed * Time.deltaTime;
